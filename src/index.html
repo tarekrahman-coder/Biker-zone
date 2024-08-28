@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biker Zone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-poppins">
+    <header class="container flex justify-end">
+        <nav class="navbar navbar-end">
+            <ul class="menu menu-horizontal bg-base-100 rounded-box w-full hidden md:flex">
+                <li ><a>Home</a></li>
+                <li><a>Shop</a></li>
+                <li><a>News</a></li>
+                <li><a>Contact</a></li>
+                <li class="ml-auto"><a class="btn btn-error">Login</a></li>
+            </ul>
+
+
+            <!-- dropdown menu for small screen -->
+            <details class="dropdown dropdown-end md:hidden">
+                <summary class="btn m-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </summary>
+                <ul class="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>News</a></li>
+                  <li><a>Contact</a></li>
+                  <li><a class="btn">Login</a></li>
+                </ul>
+              </details>
+        </nav>
+    </header>
+
+      
+</body>
+</html>
